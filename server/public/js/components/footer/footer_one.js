@@ -1,1 +1,4 @@
-var test = 123;
+$(document).ready( function(){
+  'use strict';
+  console.log('Footer init');
+});
