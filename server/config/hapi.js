@@ -15,7 +15,6 @@ module.exports = function (config) {
     }]
   };
 
-  console.log( __dirname + '/../' );
   var serverConfig = {
     port: config.port,
     routes: {
