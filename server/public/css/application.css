@@ -9779,6 +9779,9 @@ section.features {
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791;
 }
+.testimonials {
+  padding: 100px 0;
+}
 .testimonials .owl-carousel {
   margin: 50px 0;
 }
@@ -9820,20 +9823,6 @@ footer.footer .wrap {
   background: #272727;
   padding: 40px 0;
 }
-footer.footer .wrap .headline {
-  display: block;
-  margin: 0 0 25px;
-  border-bottom: 1px dotted #e4e9f0;
-}
-footer.footer .wrap .headline h2 {
-  font-size: 23px;
-  font-weight: 200;
-  border-bottom: 2px solid #4765a0;
-  margin: 0 0 -2px 0;
-  padding-bottom: 5px;
-  display: inline-block;
-  line-height: 2em;
-}
 footer.footer .wrap .map-bg {
   background: url(/assets/img/map-bg-img.png) 5px 60px no-repeat;
 }
@@ -9849,4 +9838,18 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+.headline.withH2 {
+  display: block;
+  margin: 0 0 25px;
+  border-bottom: 1px dotted #e4e9f0;
+}
+.headline.withH2 h2 {
+  font-size: 23px;
+  font-weight: 200;
+  border-bottom: 2px solid #4765a0;
+  margin: 0 0 -2px 0;
+  padding-bottom: 5px;
+  display: inline-block;
+  line-height: 2em;
 }

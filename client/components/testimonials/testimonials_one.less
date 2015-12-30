@@ -1,36 +1,39 @@
 @import (less) "../../../bower_components/OwlCarousel2/dist/assets/owl.carousel.min.css";
 @import (less) "../../../bower_components/OwlCarousel2/dist/assets/owl.theme.default.min.css";
 
-.testimonials .owl-carousel {
-  margin: 50px 0;
-  .owl-item {
-    padding: 0 100px;
-  }
-  .owl-nav {
-    .owl-prev, .owl-next {
-      display: table;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      width: 40px;
-      height: 60px;
-      margin: auto 0 !important;
-      border-radius: 0 !important;
-      text-align: center;
-      font-size: 30px !important;
-      line-height: 50px;
-      color: #fff !important;
-      background-color: #428bca;
-      border-color: #357ebd;
-      -webkit-transition: all .5s;
-      -moz-transition: all .5s;
-      transition: all .5s;
+.testimonials {
+  padding: 100px 0;
+  .owl-carousel {
+    margin: 50px 0;
+    .owl-item {
+      padding: 0 100px;
     }
-    .owl-prev {
-      left: 15px;
-    }
-    .owl-next {
-      right: 15px;
+    .owl-nav {
+      .owl-prev, .owl-next {
+        display: table;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 40px;
+        height: 60px;
+        margin: auto 0 !important;
+        border-radius: 0 !important;
+        text-align: center;
+        font-size: 30px !important;
+        line-height: 50px;
+        color: #fff !important;
+        background-color: #428bca;
+        border-color: #357ebd;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        transition: all .5s;
+      }
+      .owl-prev {
+        left: 15px;
+      }
+      .owl-next {
+        right: 15px;
+      }
     }
   }
 }
