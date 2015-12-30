@@ -1,4 +1,9 @@
 {
+  "domain": "Tri Counties Speech",
+  "navigation": [
+    {"href": "/", "label": "Home"}, {"href": "/about-us", "label": "About Us"},
+    {"href": "/our-services", "label": "Our Services"}, {"href": "/contact", "label": "Contact"}
+  ],
   "header": [
     {
       "name": "Language",
