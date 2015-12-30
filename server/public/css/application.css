@@ -9526,6 +9526,9 @@ Javascript disabled
 .no-js .cd-slider-nav {
   display: none;
 }
+section.features {
+  padding: 100px 0;
+}
 .owl-carousel .animated {
   -webkit-animation-duration: 1000ms;
   animation-duration: 1000ms;
