@@ -1,0 +1,22 @@
+section.cd-hero(style="padding:0")
+    ul.cd-hero-slider
+        each item in site.header
+            li(style="background-image: url('#{item.bg}')" class="#{item.selected}")
+                .cd-full-width
+                    .col-data
+                        h2(style="max-width: 100%")
+                            = item.h2
+                        p
+                            = item.p
+                        div(style="position: absolute; width: 100%; left: 0;")
+                            a.cd-btn( href="#{item.a.href}" style="margin: 0 auto; width: 200px")
+                                = item.a.label
+    .cd-slider-nav
+        nav
+            span.cd-marker.item-1
+            ul
+                each item in site.header
+                    li(class="#{item.selected}")
+                        i(class="fa fa-2x #{item.icon}")
+                        br
+                        = item.name

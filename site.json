@@ -1,0 +1,40 @@
+{
+  "header": [
+    {
+      "name": "Language",
+      "icon": "fa-globe",
+      "bg": "/assets/img/carousel-1.jpg",
+      "h2": "Language Development",
+      "p": "The process by which children come to understand and communicate language during early childhood.",
+      "a": {
+        "label": "Discover more",
+        "href": "#"
+      },
+      "selected": "selected"
+    },
+    {
+      "name": "Articulation",
+      "icon": "fa-comment",
+      "bg": "/assets/img/carousel-2.jpg",
+      "h2": "Articulation",
+      "p": "The movement of the tongue, lips, jaw, and other speech organs in order to make speech sounds.",
+      "a": {
+        "label": "Read more",
+        "href": "#"
+      },
+      "selected": ""
+    },
+    {
+      "name": "Social",
+      "icon": "fa-child",
+      "bg": "/assets/img/carousel-3.jpg",
+      "h2": "Social Skills",
+      "p": "The skills we use to communicate and interact with each other, both verbally and non-verbally, through gestures, body language and our personal appearance.",
+      "a": {
+        "label": "Learn more",
+        "href": "#"
+      },
+      "selected": ""
+    }
+  ]
+}

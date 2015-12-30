@@ -43,7 +43,10 @@ module.exports = function (grunt) {
       static: {
         options: {
           client: false,
-          pretty: true
+          pretty: true,
+          data: {
+            site: grunt.file.readJSON('site.json')
+          }
         },
         files: [{
           cwd: 'client/static/',
