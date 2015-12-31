@@ -31,5 +31,14 @@ module.exports = function( server ){
   });
 
   /* OTHER PAGES */
-
+  server.route({
+    method: 'GET',
+    path: '/{param*}',
+    handler: {
+      directory: {
+        path: '../public/static',
+        defaultExtension: 'html'
+      }
+    }
+  });
 };
