@@ -13,6 +13,16 @@
                                 .caption-text
                                     .text-row-name #{profile.name}
                                     .text-row-role #{profile.role}
+            br
+            br
+            .headline.text-center.withH2
+                h2
+                    | Want to Join Us?
+                h3
+                    |Find out
+                    |
+                    a(href="#")
+                        | how
 
 each profile, i in site.team
     .modal.fade.profile-modal( aria-hidden="true" id="profileModal#{i}" role="dialog" tabindex="-1")
