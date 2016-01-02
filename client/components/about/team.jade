@@ -1,0 +1,58 @@
+.parallax-team.parallaxBg( style="background-position: 50% 30px;")
+    .container.text-center( style="padding:50px 0;")
+        .col-xs-12
+            .headline.text-center.withH2
+                h1
+                    | OUR TEAM
+            .team-profiles
+                each profile, i in site.team
+                    .profile(data-toggle="modal" href="#profileModal#{i}")
+                        .profile-wrapper.img-rounded
+                            img.img-responsive(src="#{profile.img}")
+                            .caption
+                                .caption-text
+                                    .text-row-name #{profile.name}
+                                    .text-row-role #{profile.role}
+
+each profile, i in site.team
+    .modal.fade.profile-modal( aria-hidden="true" id="profileModal#{i}" role="dialog" tabindex="-1")
+        .modal-dialog.modal-lg
+            .modal-content
+                .modal-header
+                    button.close( aria-label="Close" data-dismiss="modal" type="button")
+                        span(aria-hidden="true") ×
+                    h4.modal-title
+                        = profile.name
+                        if profile.cert
+                            |,  #{profile.cert}
+                .modal-body
+                    img.img-circle.img-responsive.pull-right( src="#{profile.img}")
+                    h4 #{profile.role}
+                    p
+                        each line in profile.info
+                            = line
+                    if profile.info2 && profile.info2.h5
+                        h4 #{profile.info2.h5}
+                    if profile.info2 && profile.info2.p
+                        p
+                            each line in profile.info2.p
+                                = line
+                    if profile.info2 && profile.info2.ul
+                        ul
+                            each line in profile.info2.ul
+                                li #{line}
+
+                    if profile.info3 && profile.info3.h5
+                        h4 #{profile.info3.h5}
+                    if profile.info3 && profile.info3.p
+                        p
+                            each line in profile.info3.p
+                                = line
+                    if profile.info3 && profile.info3.ul
+                        ul
+                            each line in profile.info3.ul
+                                li #{line}
+                    p.clearfix
+
+                .modal-footer
+                    button.btn.btn-default( data-dismiss="modal" type="button") Close

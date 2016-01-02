@@ -1,0 +1,55 @@
+.parallaxBg {
+  background: url('/assets/img/bg_faces.jpg') center center repeat fixed;
+  background-size: cover;
+  &.parallax-team {
+    position: relative;
+    &::before {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: " ";
+      position: absolute;
+      background: rgba(255,255,255,0.9);
+    }
+  }
+  .profile {
+    margin:1%;
+    width:30%;
+    overflow: hidden;
+    display: inline-block;
+    .profile-wrapper {
+      position: relative!important;
+      overflow: hidden;
+      cursor: pointer;
+      img {
+        position: relative;
+      }
+      .caption {
+        position: absolute;
+        bottom:-75px;
+        width: 100%;
+        background: #0a8fd5;
+        .caption-text {
+          padding: 15px 8px;
+          color: #fff;
+          .text-row-role {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+.profile-modal {
+  img {
+    width: 30%;
+  }
+  p {
+    margin: 1.5em 0;
+  }
+  ul {
+    list-style: disc;
+    margin: 0 0 0 20px;
+  }
+}

@@ -65,9 +65,11 @@ module.exports = function (grunt) {
       bower: {
         src: [
           'bower_components/jquery/dist/jquery.min.js',
+          'bower_components/jquery-ui/jquery-ui.js',
           'bower_components/bootstrap/dist/js/bootstrap.min.js',
           'bower_components/OwlCarousel2/dist/owl.carousel.min.js',
-          'bower_components/classie/classie.js'
+          'bower_components/classie/classie.js',
+          'bower_components/jquery.parallax/jquery.parallax.js'
         ],
         dest: 'server/public/js/bower.js'
       },

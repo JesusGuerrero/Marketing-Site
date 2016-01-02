@@ -9526,6 +9526,29 @@ Javascript disabled
 .no-js .cd-slider-nav {
   display: none;
 }
+.about {
+  padding: 0;
+  height: 75%;
+  background-position: center center ;
+  position: relative;
+}
+.about .col-xs-12 {
+  position: absolute;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 0;
+}
+.about .col-xs-12 .container p {
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 1px 2px 3px #000;
+}
+.about .col-xs-12 .container p::first-letter {
+  font-size: 55px;
+  float: left;
+  margin: 8px 0px 0px 0;
+  line-height: 40px;
+}
 section.features {
   padding: 100px 0;
 }
@@ -9826,6 +9849,59 @@ footer.footer .wrap {
 footer.footer .wrap .map-bg {
   background: url(/assets/img/map-bg-img.png) 5px 60px no-repeat;
 }
+.parallaxBg {
+  background: url('/assets/img/bg_faces.jpg') center center repeat fixed;
+  background-size: cover;
+}
+.parallaxBg.parallax-team {
+  position: relative;
+}
+.parallaxBg.parallax-team::before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+}
+.parallaxBg .profile {
+  margin: 1%;
+  width: 30%;
+  overflow: hidden;
+  display: inline-block;
+}
+.parallaxBg .profile .profile-wrapper {
+  position: relative!important;
+  overflow: hidden;
+  cursor: pointer;
+}
+.parallaxBg .profile .profile-wrapper img {
+  position: relative;
+}
+.parallaxBg .profile .profile-wrapper .caption {
+  position: absolute;
+  bottom: -75px;
+  width: 100%;
+  background: #0a8fd5;
+}
+.parallaxBg .profile .profile-wrapper .caption .caption-text {
+  padding: 15px 8px;
+  color: #fff;
+}
+.parallaxBg .profile .profile-wrapper .caption .caption-text .text-row-role {
+  font-size: 12px;
+}
+.profile-modal img {
+  width: 30%;
+}
+.profile-modal p {
+  margin: 1.5em 0;
+}
+.profile-modal ul {
+  list-style: disc;
+  margin: 0 0 0 20px;
+}
 html {
   height: 100%;
 }
@@ -9844,12 +9920,10 @@ ul {
   margin: 0 0 25px;
   border-bottom: 1px dotted #e4e9f0;
 }
+.headline.withH2 h1,
 .headline.withH2 h2 {
-  font-size: 23px;
-  font-weight: 200;
   border-bottom: 2px solid #4765a0;
   margin: 0 0 -2px 0;
   padding-bottom: 5px;
   display: inline-block;
-  line-height: 2em;
 }
