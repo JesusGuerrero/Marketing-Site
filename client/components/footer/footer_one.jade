@@ -19,16 +19,16 @@ footer.footer
                         h2
                             |Useful Links
                     ul.list-unstyled.link-list
+                        each link in site.navigation
+                            li
+                                a(href="#{link.href}")
+                                    = link.label
                         li
-                            a( href="/")
-                                |Home
+                            a(href="/careers") Careers
                         li
-                            a( href="/about-us")
-                                |About Us
+                            a(href="/privacy-policy") Privacy Policy
                         li
-                            a( href="/our-services")
-                                |Services
-                        // ETC ...
+                            a(href="/terms-of-service") Terms of Service
                 .col-md-3.col-sm-6.col-sml-6.col-xs-12.map-bg
                     .headline.withH2
                         h2

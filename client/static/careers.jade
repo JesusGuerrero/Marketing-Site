@@ -1,0 +1,45 @@
+doctype
+html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
+    head
+        meta(charset="utf-8")
+        title(itemprop="name")
+            |Marketing Site: Careers
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+
+        meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+        meta(name="mobile-web-app-capable" content="yes")
+        meta(name="apple-mobile-web-app-capable" content="yes")
+        meta(name="apple-mobile-web-app-status-bar-style" content="black")
+
+        link(rel="shortcut icon" href="/assets/img/favicon.ico")
+        link(rel="apple-touch-icon" href="/assets/img/icon.png")
+
+        link(href="/assets/css/application.css" rel="stylesheet" type="text/css")
+        style
+            |.careers { padding: 100px 0; }
+    body
+        include ../components/navigation/navigation_one
+        div(style="background:#222; height: 51px; position: fixed; top: 0px; width: 100%; z-index: 999;")
+
+        section.container.careers
+            .row
+                .col-md-8
+                    h3 Join Our Team! Work with Children with Special Needs at TriCounties Speech Services, Inc.
+                    p We’re always looking for talented and professional therapists to help fulfill a great need.
+                        | Enjoy flexible hours, a fun and energetic work environment and the reward of making a difference in
+                        | someone’s life.
+                    p Therapists at TriCounties Speech Services use the latest technology to help
+                        | children learn and to keep parents informed about their child’s therapy results. You will receive
+                        | ongoing hands-on training, in-house and online. We have a work/play culture in our office so that
+                        | all employees enjoy their work and have fun!
+                    h3 Please submit your resume and cover letter to:
+                    p
+                        a( href="mailto:tricountyspeech@sbcglobal.net") tricountyspeech@sbcglobal.net
+                        br
+                        | Attention: Lorena Scalmanini
+                .col-md-4
+                    include ../components/contact/right-secondary-column
+
+        include ../components/footer/footer_one
+
+    script(src="/assets/js/application.js")

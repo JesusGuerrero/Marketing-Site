@@ -1,0 +1,42 @@
+.row
+    .col-xs-12.panel-body
+        .headline.withH2
+            h2
+                |Contact Form
+        p
+            |TriCounties Speech Services, Inc. is located in Hollister, California, on McCray Street. For directions,
+            |please click on the interactive map below. Please feel free to email us using the online form below with
+            |any questions, or give us a call!
+        .row
+            .col-sm-6
+                .form-group
+                    label( for="nombre") Name
+                    input.form-control( type="text" id="nombre")
+                .form-group
+                    label( for="inquiry") Please select from the following
+                    select.form-control(id="inquiry")
+                        option My child might have autism
+                        option My child may need speech therapy
+                        option My child may need occupational therapy
+                        option My child may have sensory issues
+                        option I may need Early Intervention help
+                        option My Regional Center referred me to you
+                        option I’m a school representative
+                        option I have questions about billing/insurance
+                        option I have other questions
+                        option I have something to share
+
+
+            .col-sm-6
+                .form-group
+                    label( for="correo") Email address
+                    input.form-control( type="email" id="correo")
+                .form-group
+                    label( for="phone") Phone
+                    input.form-control( type="text" id="phone")
+            .col-sm-12
+                .form-group
+                    label(for="message") Message
+                    textarea.form-control( rows="8" id="message")
+            .col-sm-8.col-sm-push-4.col-md-4.col-md-push-8
+                button.btn-block.btn.btn-primary Send Message

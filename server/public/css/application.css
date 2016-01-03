@@ -9902,6 +9902,9 @@ footer.footer .wrap .map-bg {
   list-style: disc;
   margin: 0 0 0 20px;
 }
+.contact {
+  padding: 0 0 100px;
+}
 html {
   height: 100%;
 }
@@ -9926,4 +9929,7 @@ ul {
   margin: 0 0 -2px 0;
   padding-bottom: 5px;
   display: inline-block;
+}
+.underline {
+  text-decoration: underline;
 }

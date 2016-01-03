@@ -1,7 +1,9 @@
 $(window).load( function(){
-  $('.parallaxBg').parallax("50%", 0.2);
+  'use strict';
+  $('.parallaxBg').parallax('50%', 0.2);
 });
 $(document).ready( function(){
+  'use strict';
   $('.team-profiles .profile').hover(
     function() {
       $(this).find('.caption').stop().animate({
