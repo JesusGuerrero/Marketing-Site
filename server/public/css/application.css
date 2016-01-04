@@ -9933,3 +9933,8 @@ ul {
 .underline {
   text-decoration: underline;
 }
+#services .tab-content ol,
+#services .tab-content ul {
+  list-style: disc;
+  margin-left: 25px;
+}

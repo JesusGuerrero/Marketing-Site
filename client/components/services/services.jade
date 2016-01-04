@@ -1,22 +1,192 @@
 style
     |.services { padding: 100px 0; }
+    |.bordered-tab-body{ border-right: 1px solid #ddd;border-left: 1px solid#ddd;border-top: transparent;margin-top: -1px;border-bottom: 1px solid #ddd;border-radius: 0 0 10px 10px; }
 
 section.container.services
     .row
-        .col-md-3
-        .col-md-6
+
+        .col-md-9
             .headline.withH2
                 h2
-                    | Overview
-            p Since 2003, TriCounties Speech Services, Inc. has been a leader in early-intervention services and speech therapy for the South Santa Clara, San Benito, and Monterey Counties.
+                    | Our Services
 
-            p Our therapy services include:
+            ul.nav.nav-tabs( role="tablist")
+                li.active( role="presentation" )
+                    a( href="#home" aria-controls="home" role="tab" data-toggle="tab") Overview
+                li( role="presentation")
+                    a( href="#services" aria-controls="services" role="tab" data-toggle="tab")
+                        |Explore All Services
 
-            ul
-                li Early Intervention Services Therapy for children 3 and under at risk for developmental delays, including home-based sessions, intended to help them reach their unique developmental milestones.
-                li Speech-Language Therapy Helping your child learn to use & understand language, using a wide range of tools and interventions (toys, play-like therapy, formal testing, speech curricula, etc.).
+            .tab-content.panel-body.bordered-tab-body
+                .tab-pane.fade.in.active(role="tabpanel" id="home")
+                    p Since 2003, TriCounties Speech Services, Inc. has been a leader in early-intervention services and speech
+                        | therapy for the South Santa Clara, San Benito, and Monterey Counties.
 
+                    p Our therapy services include:
+
+                    ul(style="list-style: disc; margin-left: 25px")
+                        li Early Intervention Services Therapy for children 3 and under at risk for developmental delays,
+                            | including home-based sessions, intended to help them reach their unique developmental milestones.
+                        li Speech-Language Therapy Helping your child learn to use & understand language, using a wide range of
+                            | tools and interventions (toys, play-like therapy, formal testing, speech curricula, etc.).
+                .tab-pane.fade( role="tabpanel" id="services")
+                    .row
+                        .col-md-3
+                            ul.nav.nav-pills.nav-stacked
+                                li.active
+                                    a( href="#articulation" aria-controls="home" role="tab" data-toggle="tab")
+                                        | Articulation
+                                li( role="presentation")
+                                    a( href="#motor" aria-controls="motor" role="tab" data-toggle="tab")
+                                        | Explore Services
+                                li( role="presentation")
+                                    a( href="#language" aria-controls="language" role="tab" data-toggle="tab")
+                                        | Language
+                                li( role="presentation")
+                                    a( href="#care" aria-controls="care" role="tab" data-toggle="tab")
+                                        | Self Care
+                                li( role="presentation")
+                                    a( href="#sensory" aria-controls="sensory" role="tab" data-toggle="tab")
+                                        | Sensory
+                                li( role="presentation")
+                                    a( href="#social" aria-controls="social" role="tab" data-toggle="tab")
+                                        | Social Skills
+                        .col-md-9
+                            .tab-content
+                                .tab-pane.fade.in.active(role="tabpanel" id="articulation")
+                                    p
+                                        |Articulation: The movement of the tongue, lips, jaw, and other speech organs
+                                        |in order to make speech sounds.
+                                    include ../services/articulation
+                                .tab-pane.fade.in(role="tabpanel" id="motor")
+                                    p
+                                        |Fine & Gross Motor: The ability to use large and small muscle groups that
+                                        |coordinate body movements involved in activities such as walking, running,
+                                        |jumping, throwing, writing, maintaining balance, buttoning, cutting, visual
+                                        |tracking, and tracing.
+                                    include ../services/motor
+                                .tab-pane.fade.in(role="tabpanel" id="language")
+                                    p
+                                        |Language Development: The process by which children come to understand and
+                                        |communicate language during early childhood.
+                                    include ../services/language
+                                .tab-pane.fade.in(role="tabpanel" id="care")
+                                    p
+                                        |Intentional actions you take to care for your physical, mental and emotional health.
+                                    include ../services/care
+                                .tab-pane.fade.in(role="tabpanel" id="sensory")
+                                    p
+                                        | Sensory Development: The maturing of the five familiar senses: hearing,
+                                        | smell, taste, touch, and vision. It involves the way your child’s nervous
+                                        | system receives input from these senses and then forms an appropriate motor
+                                        | or behavioral response, also known as sensory processing.
+                                    include ../services/sensory
+                                .tab-pane.fade.in(role="tabpanel" id="social")
+                                    p
+                                        | Social Skills: The skills we use to communicate and interact with each other,
+                                        | both verbally and non-verbally, through gestures, body language and our personal appearance.
+                                    include ../services/social
+        .col-md-3
+            .headline.withH2
+                h2
+                    | Patient Forms
+            if site.forms
+                ul(style="list-style: disc; margin-left: 25px")
+                    each form in site.forms
+                        li
+                            a( href="#{form.url")
+                                = form.title
+            p &nbsp;
             .headline.withH2
                 h2
                     | Regional Centers
-        .col-md-3
+            .row
+                .col-xs-12
+                    p
+                        b San Andreas Regional Center (SARC)
+                            br
+                            | Monterey County
+                    address 344 Salinas Street, Suite 207
+                        br
+                        | Salinas, California 93901-2727
+                        br
+                        | Phone: (831) 759-7500
+                        br
+                        | Site:
+                        a(href="http://www.sarc.org" target="_blank")
+                            | www.sarc.org
+                .col-xs-12
+                    p
+                        b San Andreas Regional Center (SARC)
+                            br
+                            | San Benito County
+                    address 7855 Wren Avenue, Suite A
+                        br
+                        | Gilroy, California 95020
+                        br
+                        | Phone: (408) 846-8805
+                        br
+                        | Site:
+                        a(href="http://www.sarc.org" target="_blank")
+                            | www.sarc.org
+                .col-xs-12
+                    p
+                        b San Andreas Regional Center (SARC)
+                            br
+                            | Santa Cruz County
+                    address 1110 Main Street
+                        br
+                        | Watsonville, California 95076
+                        br
+                        | Phone: (831) 728-1781
+                        br
+                        | Site:
+                        a(href="http://www.sarc.org" target="_blank")
+                            | www.sarc.org
+        .col-sm-12.hidden-md.hidden-lg
+            .headline.withH2
+                h2
+                    | Regional Centers
+            .row
+                .col-sm-6
+                    p
+                        b San Andreas Regional Center (SARC)
+                            br
+                            | Monterey County
+                    address 344 Salinas Street, Suite 207
+                        br
+                        | Salinas, California 93901-2727
+                        br
+                        | Phone: (831) 759-7500
+                        br
+                        | Site:
+                        a(href="http://www.sarc.org" target="_blank")
+                            | www.sarc.org
+                .col-sm-6
+                    p
+                        b San Andreas Regional Center (SARC)
+                            br
+                            | San Benito County
+                    address 7855 Wren Avenue, Suite A
+                        br
+                        | Gilroy, California 95020
+                        br
+                        | Phone: (408) 846-8805
+                        br
+                        | Site:
+                        a(href="http://www.sarc.org" target="_blank")
+                            | www.sarc.org
+                .col-sm-12
+                    p
+                        b San Andreas Regional Center (SARC)
+                            br
+                            | Santa Cruz County
+                    address 1110 Main Street
+                        br
+                        | Watsonville, California 95076
+                        br
+                        | Phone: (831) 728-1781
+                        br
+                        | Site:
+                        a(href="http://www.sarc.org" target="_blank")
+                            | www.sarc.org
