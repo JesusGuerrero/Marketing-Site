@@ -9938,3 +9938,12 @@ ul {
   list-style: disc;
   margin-left: 25px;
 }
+@media screen and (max-width: 767px) {
+  .navbar-brand h1 {
+    font-size: 21px !important;
+    line-height: 35px;
+  }
+  .caption {
+    display: none;
+  }
+}
