@@ -40,7 +40,10 @@ each profile, i in site.team
                     h4 #{profile.role}
                     p
                         each line in profile.info
-                            = line
+                            if line === '<br/>'
+                                <br/>    
+                            else
+                                = line
                     if profile.info2 && profile.info2.h5
                         h4 #{profile.info2.h5}
                     if profile.info2 && profile.info2.p

@@ -46,20 +46,38 @@
     {
       "name": "Sara Barron",
       "role": "Early Interventionist",
-      "img": "/assets/img/team-SaraBaron.jpg",
+      "img": "/assets/img/team-SaraBarron.jpg",
       "info": [
-        "I have a BA in Preschool Education from Fresno State. I have been an Early Interventionist for 5 years. ",
-        "I was a volunteer for thee Early Head Start Infant Program for 2 years. Currently, I am a volunteer for Faith ",
-        "Formation program at my local church. I truly enjoy working with children and their families. My life has ",
-        "been blessed with my beautiful daughters and a good supportive husband."
+        "I have a bachelor’s degree in pre-school education issued by the University of Fresno in ",
+        "California. I have worked for TriCounties Speech Services for 8 years, and I have dedicated ",
+        "myself to helping families with guidance, education and training to achieve the individual goals ",
+        "of each child I have worked with. My priority is to participate in the generalized growth of each ",
+        "child I must serve with their families. For me, it is a privilege to work and be able to help their ",
+        "families in everything that is within my reach. I am a blessed woman with a family of two ",
+        "daughters and a husband who supports me in my goals.",
+        "<br/>",
+        "<br/>",
+        "Tengo una Licenciatura en Educación Preescolar emitida por la Universidad de Fresno en ",
+        "California. He trabajado para TriCounties Speech Services durante 8 años, y me he dedicado a ",
+        "ayudar a las familias con orientación, educación y capacitación para alcanzar las metas ",
+        "individuales de cada niño con el que he trabajado. Mi prioridad es participar en el crecimiento ",
+        "generalizado de cada niño al que debo servir junto con sus familias. Para mí es un privilegio ",
+        "trabajar y poder ayudar a sus familias en todo lo que esté a mi alcance. Soy una mujer bendecida ",
+        "con una familia de dos hijas y un esposo que me apoya en mis metas. "
+        
       ]
     },
     {
       "name": "Veronica Hernandez",
       "role": "Early Interventionist",
-      "img": "/assets/img/team-Vero.jpg",
+      "img": "/assets/img/team-VeronicaHernandez.jpg",
       "info": [
-        "I am a graduate of California State University Monterey Bay where I received my Bachelor of Arts in Psychology. I have a background in Behavior Therapy with a private practice where I obtained my certificates in Therapeutic Crisis Intervention and Crisis Prevention Intervention. As an Early Interventionist, my favorite part is being able to work with infants and toddlers in any developmental delays and help them reach their goals. I also enjoy working with the parents and providing them with teaching techniques to help support their children."
+        "I am a graduate of California State University Monterey Bay where I received my Bachelor of ",
+        "Arts in Psychology. I have a background in Behavior Therapy with a private practice where I ",
+        "obtained my certificates in Therapeutic Crisis Intervention and Crisis Prevention Intervention. As ",
+        "an Early Interventionist, my favorite part is being able to work with infants and toddlers in any ",
+        "developmental delays and help them reach their goals. I also enjoy working with the parents ",
+        "and providing them with teaching techniques to help support their children."
       ]
     },
     {
@@ -107,9 +125,64 @@
     {
       "name": "Raisa Arce",
       "role": "Early Interventionist",
-      "img": "/assets/img/team-Raisa.jpg",
+      "img": "/assets/img/team-RaisaArce.jpg",
       "info": [
-        "I was born and raised in Salinas, CA. I obtained my A.A. Degree from Hartnell College and my B.A. in Psychology from California State University of Monterey Bay. I enjoy working with our local families and helping them reach their child's developmental milestones. As an Early Interventionist with TriCounties Speech Services, Inc., I seize the opportunity to express creativity, relating to a variety of different personalities and impacting the starting point of a child's educational learning."
+        "I was born and raised in Salinas, CA. I obtained my A.A. Degree from Hartnell College and my ",
+        "B.A. in Psychology from California State University of Monterey Bay. I enjoy working with our ",
+        "local families and helping them reach their child's developmental milestones. As an Early ",
+        "Interventionist with TriCounties Speech Services, Inc., I seize the opportunity to express ",
+        "creativity, relating to a variety of different personalities and impacting the starting point of a ",
+        "child's educational learning."
+      ]
+    },
+    {
+      "name": "Nicole Judah",
+      "role": "Early Interventionist",
+      "img": "/assets/img/team-NicoleJudah.jpg",
+      "info": [
+        "I am currently a Early Intervention specialist with TriCounties Speech Services serving families ",
+        "within Santa Clara County. I graduated from San Jose State University with a Bachelors of Arts ",
+        "in Psychology in 2013, and from Arizona State University with a Masters in Education in Applied ",
+        "Behavior Analysis in 2017. Before working with TriCounties Speech Services I provided ",
+        "behavior support services to children in school and home based settings. I am very passionate ",
+        "about enhancing caregivers capacity to support their child and having a positive impact on the ",
+        "families I serve. In my free time I enjoys hiking, reading, and playing with my three cats."
+      ]
+    },
+    {
+      "name": "Mary Barron",
+      "role": "Early Interventionist",
+      "img": "/assets/img/team-MaryBarron.jpg",
+      "info": [
+        "I enjoy working with families and helping them achieve their children's goals. As an early ",
+        "interventionist at TriCounties Speech Services, Inc., I have the opportunity to express my ",
+        "creativity and knowledge to help my students reach their full potential. I love my job and the ",
+        "satisfaction it gives me both professionally and personally."
+      ]
+    },
+    {
+      "name": "Evelyn Rodriguez",
+      "role": "Early Interventionist",
+      "img": "/assets/img/team-EvelynRodriguez.jpg",
+      "info": [
+        "I am a graduate of Brandman University where I received my Bachelor of Arts in Liberal Studies. ",
+        "I have a background working as a toddler and preschool teacher with children ages 0 to 5. As an ",
+        "Early Interventionist, my favorite part is being able to work with infants and toddlers in any ",
+        "developmental delays and help them reach their goals. I also enjoy working with the parents and ",
+        "providing them with teaching techniques to help support their children."
+      ]
+    },
+    {
+      "name": "Crystal Cornejo",
+      "role": "Administrative Assistant",
+      "img": "/assets/img/team-CrystalCornejo.jpeg",
+      "info": [
+        "My Name is Crystal Cornejo and I grew up in the Central Valley and ",
+        "moved to San Jose to attend college. I attended Evergreen College ",
+        "where I studied Business Administration.  As the Office Administrator ",
+        "for TriCounties Speech Services, Inc. my job is to oversee the office ",
+        "operations and I am committed to making our clients and their families ",
+        "experience in our office a positive one!"
       ]
     }
   ],
