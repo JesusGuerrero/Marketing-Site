@@ -180,6 +180,31 @@
       ]
     },
     {
+      "name": "Deanna Brazys",
+      "role": "Speech Language Pathologist",
+      "img": "/assets/img/team-DeannaBrazys.jpg",
+      "info": [
+        "Deanna Brazys is a California licensed, Speech- Language Pathologist. ",
+        "She graduated from SJSU and earned her Bachelors and Masters of Arts in ",
+        "Speech-Language Pathology.",
+        "<br/>",
+        "<br/>",
+        "Deanna has clinical experience working a variety of settings, including, ",
+        "home health care, private practice, public schools, and early intervention. ",
+        "She enjoys collaborating with other disciplines and teaching each individual ",
+        "child, catering a therapy plan to fit the child’s unique need, as well as ",
+        "building interpersonal relationships with their families.",
+        "<br/>",
+        "<br/>",
+        "In my free time, I enjoy hiking, writing, and music."
+      ],
+      "info2": {
+        "h5": "Certifications and Licensure",
+        "ul": [
+          "California State License administered by California Speech Pathology and Audiology Board"
+        ]}
+    },
+    {
       "name": "Crystal Cornejo",
       "role": "Administrative Assistant",
       "img": "/assets/img/team-CrystalCornejo.jpeg",
