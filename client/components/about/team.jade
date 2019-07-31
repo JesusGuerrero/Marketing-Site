@@ -6,6 +6,8 @@
                     | OUR TEAM
             .team-profiles
                 each profile, i in site.team
+                    if( i == 2)
+                        hr
                     .profile(data-toggle="modal" href="#profileModal#{i}")
                         .profile-wrapper.img-rounded
                             img.img-responsive(src="#{profile.img}")
