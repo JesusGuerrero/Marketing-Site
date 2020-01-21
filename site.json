@@ -110,19 +110,6 @@
       ]
     },
     {
-      "name": "Veronica Hernandez",
-      "role": "Early Interventionist",
-      "img": "/assets/img/team-VeronicaHernandez.jpg",
-      "info": [
-        "I am a graduate of California State University Monterey Bay where I received my Bachelor of ",
-        "Arts in Psychology. I have a background in Behavior Therapy with a private practice where I ",
-        "obtained my certificates in Therapeutic Crisis Intervention and Crisis Prevention Intervention. As ",
-        "an Early Interventionist, my favorite part is being able to work with infants and toddlers in any ",
-        "developmental delays and help them reach their goals. I also enjoy working with the parents ",
-        "and providing them with teaching techniques to help support their children."
-      ]
-    },
-    {
       "name": "Raisa Arce",
       "role": "Early Interventionist",
       "img": "/assets/img/team-RaisaArce.jpg",
@@ -203,19 +190,6 @@
         "ul": [
           "California State License administered by California Speech Pathology and Audiology Board"
         ]}
-    },
-    {
-      "name": "Crystal Cornejo",
-      "role": "Administrative Assistant",
-      "img": "/assets/img/team-CrystalCornejo.jpeg",
-      "info": [
-        "My Name is Crystal Cornejo and I grew up in the Central Valley and ",
-        "moved to San Jose to attend college. I attended Evergreen College ",
-        "where I studied Business Administration.  As the Office Administrator ",
-        "for TriCounties Speech Services, Inc. my job is to oversee the office ",
-        "operations and I am committed to making our clients and their families ",
-        "experience in our office a positive one!"
-      ]
     }
   ],
   "forms": [
