@@ -23,7 +23,7 @@
     "boom": "^2.5.1",
     "good": "6.3.0",
     "good-console": "^5.0.0",
-    "hapi": "~8.8.1",
+    "hapi": "~18.1.0",
     "jade": "^1.9.1",
     "mailgun-js": "^0.7.1"
   },
@@ -35,7 +35,7 @@
     "grunt-contrib-jade": "^0.12.0",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-less": "^1.0.0",
-    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-newer": "^1.1.1",
     "grunt-script-link-tags": "^1.0.2",
     "install": "^0.1.8",
